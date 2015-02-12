@@ -1,0 +1,29 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>ckeditor swfupload</title>
+	<!--<script type="text/javascript" src="http://www.tianyouwang.net/assets/jquery-1.8.js"></script>-0-->
+	<script src="./swfupload.js"></script>
+	<script type="text/javascript" src="./UploadFiles.js"></script>
+	
+	<script src="/JS/jquery-1.10.2.min.js"></script>
+	<script src="./ckeditor/ckeditor.js"></script>
+	<script src="./ckeditor/adapters/jquery.js"></script>
+</head>
+<body>
+	<form action="upload.php" method="post">
+	<label for="editor1">  
+                message</label>  
+            <textarea cols="80" id="editor1" name="editor1" rows="10"></textarea>  
+			
+
+</form>
+<script type="text/javascript">
+	$(function(){ 
+		$( 'textarea#editor1').ckeditor()
+		//SWF----------------------------------  
+            
+	})
+</script>
+</body>
+</html>
